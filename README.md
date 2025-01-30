@@ -11,7 +11,7 @@ VDP/PSG/KEYBOARDのテストなどが行えます。
 ## ■ 頒布先
 ### 家電のKENちゃん
 ●MSX用MSX Diagnosis Cartridge 【組み立てキット】  
-※URL未定
+https://www.kadenken.com/view/item/000000001821
 
 ●シェルケース（廉価版）  
 - クリアブラック  
@@ -45,6 +45,33 @@ https://github.com/v9938/msx_diagnostics
 
 ### Cesar Rincon Nadal氏WEBページ
 https://nightfoxandco.com/
+
+## ■ ソフトウェア アップデートについて  
+不定期にソフトウェアのアップデートを行う事があります。  
+UPDATE用のソフトウェア「diagup.com」は以下にあります。MSX-DOS上で実行してください。  
+
+https://github.com/v9938/MSXDiagCartridge/tree/main/UPDATE
+
+### ソフトウェアアップデート手順
+ 1. 基板上のスイッチを「無効」設定にします。
+![Update1](./PIC/image16.jpg "Update1")    
+ 2. MSX本体にカセットをセットし、MSX-DOSを起動します。  
+![Update1](./PIC/image17.jpg "Update1")    
+ 3. MSX本体の電源を入れたまま、基板上のスイッチを「有効」設定に切り替えます。 
+![Update1](./PIC/image18.jpg "Update1")    
+
+ 4. アップデート用のソフトを起動します。  
+ ```  
+>diagup
+```  
+ 5. 正常に認識した場合、Updateするか確認が入りますので、「Y」キーを押します。  
+![Update1](./PIC/image19.png "Update1")  
+下記メッセージの場合は、ROMが認識できていません、基板上のスイッチの状態を確認してください  
+![Update1](./PIC/image22.png "Update1")    
+ 6. アップデートが開始されます  
+![Update1](./PIC/image20.png "Update1")    
+ 7. 下記メッセージが出たらアップデート完了です。  
+![Update1](./PIC/image21.png "Update1")    
 
 
 ## ■ カセットの仕様について  
